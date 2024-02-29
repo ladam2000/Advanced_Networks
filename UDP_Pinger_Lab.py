@@ -10,7 +10,7 @@ clientSocket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 clientSocket.settimeout(1)  # Set 1-second timeout
 
 # Send 10 ping requests
-for sequence_number in range(1, 11):
+for sequence_number in range(1, 110):
     message = f"Ping {sequence_number} {time.time()}"  # Format the message
     startTime = time.time()  # Record the send time 
 

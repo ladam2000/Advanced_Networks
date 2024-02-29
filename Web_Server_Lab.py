@@ -1,10 +1,7 @@
-import socket
 import sys
-from socket import AF_INET, SOCK_STREAM
+from socket import *
 
-# ... rest of your imports
-
-serverSocket = socket.socket(AF_INET, SOCK_STREAM) 
+serverSocket = socket(AF_INET, SOCK_STREAM) 
 
 # Prepare a server socket
 serverPort = 8080  # Choose a port number 
