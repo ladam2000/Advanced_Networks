@@ -3,7 +3,7 @@ import time
 
 server_socket = socket(AF_INET, SOCK_DGRAM)
 server_socket.bind(('localhost',12000))
-print('Sever running...')
+print('Server running...')
 
 last_seq_num = None
 
